@@ -9,15 +9,15 @@ Instructions to run the project :-
 
 * To initialize the required tables, run: 
 
-```
-$ psql
-```
-```
-$ \i tournament.sql
-```
+  ```
+  $ psql
+  ```
+  ```
+  $ \i tournament.sql
+  ```
 
 * Then quit **PostgreSQL** with `\q` and then run:
 
-```
-$ python tournament_test.py
-```
+  ```
+  $ python tournament_test.py
+  ```
